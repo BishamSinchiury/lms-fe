@@ -1,0 +1,275 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: green;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* --------------- NAVBAR --------------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.navbar h1{
+    color: green;
+    font-size: 28px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar li{
+    cursor: pointer;
+    color: grey;
+    font-weight: 500;
+}
+
+.navbar li:hover{
+    color: green;
+}
+.btnDiv{
+    display: flex;
+
+}
+
+.btnDiv button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.signin{
+    background-color: green;
+     color:white;
+     border: none;
+}
+.signin:hover{
+     background-color: darkgreen;
+}
+
+.login{
+    color: green;
+    background: none;
+    border: 2px solid green;
+    
+}
+.login:hover{
+    background-color: green;
+    color: white;
+}
+/* ================= HERO SECTION ================= */
+
+.hero{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background: linear-gradient(
+        to right,
+        #e8f5e9,
+        #ffffff
+    );
+    gap: 50px;
+}
+
+.heroContent{
+    flex: 1;
+}
+
+.heroContent h1{
+    font-size: 60px;
+    color: #1b5e20;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.heroContent p{
+    font-size: 18px;
+    color: #4e4e4e;
+    margin-bottom: 30px;
+}
+
+.heroButtons{
+    display: flex;
+    gap: 20px;
+}
+
+.primaryBtn{
+    padding: 12px 28px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.primaryBtn:hover{
+    background-color: darkgreen;
+}
+
+.secondaryBtn{
+    padding: 12px 28px;
+    background-color: transparent;
+    color: green;
+    border: 2px solid green;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.secondaryBtn:hover{
+    background-color: green;
+    color: white;
+}
+
+.heroImage{
+    flex: 1;
+}
+
+.heroImage img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.aboutSection{
+display:flex;
+align-items:center;
+gap:45px;
+padding:50px;
+margin:80px auto;
+width:90%;
+background-color:#dcdcdc;
+border-radius:20px;
+transition:0.3s;
+cursor:pointer;
+}
+
+.aboutSection:hover{
+transform:translateY(-10px);
+}
+
+.aboutSection:active{
+transform:scale(0.97);
+}
+
+.aboutContent{
+flex:1;
+}
+
+.aboutContent h2{
+color:green;
+margin-bottom:20px;
+}
+
+.aboutContent p{
+color:#444;
+margin-bottom:15px;
+line-height:1.6;
+}
+
+.aboutBtn{
+padding:10px 20px;
+border:none;
+background-color:green;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+.aboutImage{
+flex:1;
+}
+
+.aboutImage img{
+width:100%;
+border-radius:15px;
+}
+.courseSection{
+padding:80px 50px;
+background-color:#dcdcdc;
+text-align:center;
+border-radius: 15px;
+}
+
+.courseSection h2{
+font-size:40px;
+color:green;
+margin-bottom:50px;
+}
+
+.courseContainer{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.courseCard{
+width:300px;
+background-color:#dcdcdc;
+border-radius:20px;
+padding:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+cursor:pointer;
+}
+
+.courseCard:hover{
+transform:translateY(-10px);
+}
+
+.courseCard:active{
+transform:scale(0.97);
+}
+
+.courseCard img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.courseCard h3{
+color:green;
+margin-bottom:15px;
+}
+
+.courseCard p{
+color:#444;
+margin-bottom:20px;
+line-height:1.6;
+}
+
+.courseBtn{
+padding:10px 20px;
+border:none;
+background-color:green;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
